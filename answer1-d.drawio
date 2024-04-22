@@ -1,0 +1,149 @@
+<mxfile host="65bd71144e">
+    <diagram id="ASTWp4ZXTidoFe2xOwB_" name="1b">
+        <mxGraphModel dx="1256" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="192.5" y="215" as="sourcePoint"/>
+                        <mxPoint x="277.5" y="215" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;預約型買家&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="47.5" y="120" width="145" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="手機號碼" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5">
+                    <mxGeometry x="5" y="30" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="期望被接待的日期與時段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="5">
+                    <mxGeometry x="-7.5" y="85" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="申請內容" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="277.5" y="120" width="145" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="手機號碼" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="15" y="75" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="姓名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="15" y="105" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="期望被接待的日期與時段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="-7.5" y="130" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="審核結果" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="477.5" y="120" width="130" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="手機號碼" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8">
+                    <mxGeometry x="10" y="40" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="姓名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8">
+                    <mxGeometry x="10" y="70" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="是否成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="8">
+                    <mxGeometry x="10" y="110" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="姓名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="52.5" y="175" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;即時參觀買家&lt;br&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="47.5" y="390" width="145" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="手機號碼" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="13">
+                    <mxGeometry x="5" y="30" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="姓名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="13">
+                    <mxGeometry x="5" y="60" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="192.5" y="490" as="sourcePoint"/>
+                        <mxPoint x="280" y="490" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="237.5" y="490"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="建案名稱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="292.5" y="165" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="407.5" y="205" as="sourcePoint"/>
+                        <mxPoint x="477.5" y="205" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="192.5" y="190" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="247.5" y="190" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="192.5" y="460" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="253" y="460" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="413" y="175" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="447.5" y="175" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="申請內容" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="283" y="390" width="130" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="手機號碼" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="35">
+                    <mxGeometry x="15" y="75" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="姓名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="35">
+                    <mxGeometry x="15" y="105" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="建案名稱" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="35">
+                    <mxGeometry x="17" y="45" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="414" y="474.72" as="sourcePoint"/>
+                        <mxPoint x="480" y="270" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="450" y="475"/>
+                            <mxPoint x="450" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="440" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="447.5" y="240" width="30" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="YNBZmlXG5lnyesX3e9GX" name="1d">
+        <mxGraphModel dx="1102" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="AscKv5OJ8TlSJ3xA4gjY" name="2b">
+        <mxGraphModel dx="1102" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="jKp8lnFoO_ODNvvGuu6S" name="2d">
+        <mxGraphModel dx="1102" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
